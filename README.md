@@ -180,7 +180,8 @@ promotion of reviewed code.
 This is continuing security research and practical threat-model review for my
 own AI-assisted personal projects. It is not professional security-research
 experience, a claim that I independently authored the outside research, or a
-claim that every recommendation I review has been implemented.
+claim that every recommendation I review has been implemented. It does not make
+either project a production security system.
 
 ## My Role
 
