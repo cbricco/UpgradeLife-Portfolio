@@ -163,6 +163,25 @@ request
 I am not presenting myself as a security engineer or as the independent
 designer of the project's low-level security implementation.
 
+## Security Review Practice
+
+As part of ongoing development, I conduct a weekly review of security research,
+advisories, standards, incident reports, and engineering analysis relevant to
+Upgrade Life and Hands-Free Auto Lab. I compare useful findings against the
+projects' existing architecture and use them, when applicable, to refine threat
+models, security requirements, and focused tests.
+
+Areas I review include bounded authorization, one-use authority, replay
+prevention, atomic execution claims, crash and restart recovery, filesystem
+durability, clock rollback, identity and provenance, least privilege,
+credential containment, sandbox isolation, human approval boundaries, and safe
+promotion of reviewed code.
+
+This is continuing security research and practical threat-model review for my
+own AI-assisted personal projects. It is not professional security-research
+experience, a claim that I independently authored the outside research, or a
+claim that every recommendation I review has been implemented.
+
 ## My Role
 
 My role in Upgrade Life is primarily:
